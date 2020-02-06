@@ -312,6 +312,7 @@ public class MainActivity extends Activity  implements View.OnDragListener, View
         findViewById(R.id.layout1).setOnDragListener(this);
         findViewById(R.id.layout2).setOnDragListener(this);
         findViewById(R.id.layout3).setOnDragListener(this);
+        findViewById(R.id.layout4).setOnDragListener(this);
         //kylee_end
 
 
@@ -4497,10 +4498,6 @@ public class MainActivity extends Activity  implements View.OnDragListener, View
                 owner.removeView(vw); //remove the dragged view
                 //caste the view into LinearLayout as our drag acceptable layout is LinearLayout
                 LinearLayout container = (LinearLayout) v;
-//                LinearLayout.LayoutParams params;
-//                params = new LinearLayout.LayoutParams(100, 100);
-//                params.leftMargin = 50;
-//                params.topMargin = 60;
                 container.addView(vw);//Add the dragged view
                 vw.setVisibility(View.VISIBLE);//finally set Visibility to VISIBLE
                 // Returns true. DragEvent.getResult() will return true.

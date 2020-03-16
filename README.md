@@ -5,3 +5,4 @@ Smartphones have been widely used for various purposes and stay connected at all
 
 ## Reference:
 Open Camera: https://opencamera.org.uk/
+RealtimeBlurView: https://github.com/mmin18/RealtimeBlurView
